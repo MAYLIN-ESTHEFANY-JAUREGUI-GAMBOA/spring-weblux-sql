@@ -5,7 +5,7 @@ Este proyecto implementa un CRUD reactivo utilizando Spring WebFlux y PostgreSQL
 ## Requisitos
 
 - Java 17
-- Maven 3.6+
+- Maven
 - PostgreSQL (Neon) database
 - Git
 
