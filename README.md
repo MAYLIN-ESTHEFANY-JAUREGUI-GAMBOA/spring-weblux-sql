@@ -258,7 +258,7 @@ Para verificar que los productos se guardan correctamente en PostgreSQL Neon:
 2. **Seleccionar la base de datos:** `maylin_jauregui_22`
 3. **Ejecutar consulta SQL:**
    ```sql
-   SELECT * FROM product ORDER BY id;
+   SELECT * FROM product;
    ```
 
 **Resultado esperado:** Lista de todos los productos almacenados en la tabla product
