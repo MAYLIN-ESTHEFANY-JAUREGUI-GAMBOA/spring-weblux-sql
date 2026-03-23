@@ -271,4 +271,4 @@ Para verificar que los productos se guardan correctamente en PostgreSQL Neon:
 - La base de datos debe llamarse `maylin_jauregui_22`
 - La tabla debe llamarse `product` (crear con `schema.sql`)
 - El proyecto usa programación reactiva con WebFlux y R2DBC
-- Los IDs son auto-incrementales (BIGSERIAL) gestionados por PostgreSQL 
+- Los IDs son auto-incrementales (BIGSERIAL) gestionados por PostgreSQL
