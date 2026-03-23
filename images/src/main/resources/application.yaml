@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: maylin.jauregui
+  r2dbc:
+    url: r2dbc:postgresql://ep-odd-grass-a5zs4hqj-pooler.us-east-2.aws.neon.tech/maylin_jauregui_22?sslmode=require&channel_binding=require
+    username: NeonDB_owner
+    password: npg_z3LUOmRcrI5G
+  webflux:
+    base-path: /
+
+server:
+  port: 8080
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: method
+    tags-sorter: alpha
+
+logging:
+  level:
+    ap1.maylin.jauregui: DEBUG
+    org.springframework.data.r2dbc: DEBUG
